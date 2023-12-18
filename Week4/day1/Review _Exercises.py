@@ -28,13 +28,14 @@ print(list[0][::-1])
 
 
 #____loops
-
+############Almost correct, but it will print numbers from 10 to 19. To include 20, the condition should be while number <= 20:
 #8 Exercise: Write a loop to print every number between 10 and 20.
 number=10
 while number <20:
     print(number)
     number += 1
-    
+
+#########Incorrect. The initial value of number is set to 10, which is even. It should start at 1. Also, it should be while number <= 20: to include 20 if it was odd.
 #9. Exercise: Write a loop to print every odd number between 1 and 20
 
 number = 10
@@ -54,7 +55,7 @@ def length_func():
     print(length)
 length_func()
 
-
+############Incorrect. The function's name (gets_sum) and implementation suggest that it sums three numbers, not calculates their average. To calculate the average, the sum of the numbers should be divided by 3: average = result / 3.
 #14. Exercise: Define a function that takes three numbers and prints their average
 
 def gets_sum():
